@@ -65,9 +65,16 @@
 
         <div class = "AboutUs_Content">
             <h1 class = "AboutUS_nag"><b>Martyna &amp Damian</b></h1>
-            
-            <img class = "Damian_diarry" src="Damian.jpg">
-
+            <div class = "wrapper">
+                <div class = "item">
+                    <div class = "polaroid">
+                            <img  src="Damian.jpg">
+                        <div class = "caption">
+                            Damian Pilny
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!--<img class = "Mart_i_ja" src="Mart_i_ja.jpg" style = "width: 100%; margin: 32px 0">-->
             <div id = "paper">
                 <div id = "pattern">
