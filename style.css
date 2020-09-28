@@ -88,7 +88,7 @@ p
 
 }
 @-webkit-keyfr    
-
+{
     0% { top: 0; }
     50% { top: -0.2em; }
     70% { top: -0.4em; }
@@ -242,46 +242,54 @@ p
     border-radius: 4px;
     filter: grayscale(5%);
 }*/
-*{
-    box-sizing: border-box;
-}
-.wrapper
+
+.wrapper 
 {
-    width: 100%;
+    width: 50%;
     padding: 0 2rem;
     text-align: center;
+    float: right;  
 }
-.polaroid
-{
+    .polaroid {
     background: #fff;
     padding: 1rem;
     box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
-}
-.polaroid > img
-{
-    max-width: 30%;
+    
+  }
+  .polaroid > img{
+    max-width: 100%;
     height: auto;
-}
-.caption
-{
+  }
+  .caption {
     font-size: 1.8rem;
     text-align: center;
     line-height: 2em;
-}
-.item
-{
+  }
+  .item {
     width: 30%;
     display: inline-block;
     margin-top: 2rem;
     filter: grayscale(100%);
-}
-.item .polaroid:before {
+  }
+  .item .polaroid:before {
     content: '';
     position: absolute;
     z-index: -1;
     transition: all 0.35s;
   }
- 
+  .item:nth-of-type(4n+1) {
+    transform: scale(0.8, 0.8) rotate(5deg);
+    transition: all 0.35s;
+  }
+  .item:nth-of-type(4n+1) .polaroid:before {
+    transform: rotate(6deg);
+    height: 20%;
+    width: 47%;
+    bottom: 30px;
+    right: 12px;
+    box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+  }
+  
   .item:hover {
     filter: none;
     transform: scale(1, 1) rotate(0deg) !important;
@@ -300,17 +308,18 @@ p
     transition: all 0.35s;
   }
   
-}
+
+/*
 .Damian_diarry
 {
     border-radius: 4px;
     filter: grayscale(25%);
     height: 500px;
-    float: right;
+    float: left;
     width: 40%; 
-   /*margin: 32px 0*/
+   /*margin: 32px 0
    padding-top: 20px;
-}
+}*/
 .Martyna_diarry
 {
     clear: both;
@@ -324,7 +333,7 @@ p
 }
 #paper
 {
-    width: 60%;
+    width: 40%;
     height: 100%;
     margin: 20px auto;
     background-color: #FFFACD;
@@ -406,6 +415,7 @@ p
     letter-spacing: 1px;
     word-spacing: 2px;
 }
+
 .wedButton
 {
     display: inline-block;
