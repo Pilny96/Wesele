@@ -757,3 +757,30 @@ p
     padding-top: 16px!important;
     padding-bottom: 16px!important;
 }
+.footer-menu
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #fff!important;
+}
+.footer-menu li
+{
+    display: inline;
+    padding-left: 10px;
+    color: #fff!important;
+}
+.footer-menu li::before
+{
+    display: inline-block;
+    content: "•";
+    padding-right: 12px;
+}
+.footer-menu li:first-child:before
+{
+    display: none;
+}
+.footer-menu li
+{
+    padding: 0 5px;
+}
