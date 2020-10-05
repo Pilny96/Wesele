@@ -84,7 +84,7 @@ p
 }
 .Inside_bounce
 {
-    float: left;
+   /* float: left;
     display: inline-block;
     position: absolute;
     bottom: 0;    
@@ -92,7 +92,28 @@ p
     left: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
-
+    border: solid 1px #fff;
+    font-size: 1em;
+    width: 50px;
+    height: 50px;
+    padding: .25em 0 0 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+    -moz-border-radius: 50%
+    */
+    color: #FFFFFF;
+    font-size: 2em;
+    border: solid 2px #FFFFFF;
+    width: 50px;
+    height: 50px;
+    padding: .25em 0 0 0;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
 }
 .icon-down-open    
 
@@ -743,38 +764,38 @@ p
     border: 1px solid #ccc !important;
     width: 100%;
 }
-.button_bottom
-{
-    
-}
+
 .Footer_Conterner
 {
     display: block;
     width: auto;
     text-align: center;
     color: #fff!important;
-    background-color: #000!important;
+    background-color: #045!important;
     padding-top: 16px!important;
     padding-bottom: 16px!important;
 }
 .footer-menu
 {
+    width: auto;
+    clear: both;
     padding: 0;
     margin: 0;
     list-style: none;
-    color: #fff!important;
+    color: rgb(230, 205, 205)!important;
 }
 .footer-menu li
 {
     display: inline;
     padding-left: 10px;
-    color: #fff!important;
+    color: #ccc!important;
 }
 .footer-menu li::before
 {
     display: inline-block;
     content: "•";
     padding-right: 12px;
+    
 }
 .footer-menu li:first-child:before
 {
@@ -783,4 +804,12 @@ p
 .footer-menu li
 {
     padding: 0 5px;
+}
+.footer-menu li:hover
+{
+    color: #bbb
+}
+.pull-left
+{
+    clear: both;
 }
