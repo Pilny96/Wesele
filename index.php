@@ -32,7 +32,7 @@
             <h2 class = h2_Intro>Pobieramy się!</h2>
             <h2 class = "h2_date"><b>24.04.2021</b></h2>
             <div class = "icon">
-                <i class = "Inside_bounce">
+                <i class = "Inside_bounce ">
                 <a href="#my"><h2> <i class="icon-down-open"></i> </h2> </a>
                 </i>
             </div>
@@ -69,7 +69,7 @@
             <div class = "wrapper">
                 <div class = "item">
                     <div class = "polaroid">
-                        <img  src="Damian.jpg">
+                        <a href="https://www.facebook.com/damian.pilny/" target="_blank"><img  src="temp_strona_Damian.jpg" style ="width: 100%;"></a>
                         <div class = "caption"> Damian Pilny</div>
                     </div>
                 </div>
@@ -97,7 +97,15 @@
                 </div>
             </div>
 
-            <img class = "Martyna_diarry" src="Martyna.JPG">
+            <div class = "wrapperM">
+                <div class = "itemM">
+                    <div class = "polaroidM">
+                        <a href="https://www.facebook.com/martyna.danisz" target="_blank"><img class = "Martyna_diarry" src="temp_strona_Martyna.jpg" style ="width: 100%;"></a>
+                        <div class = "captionM"> Martyna Danisz</div>
+                    </div>
+                </div>
+            </div>
+            
 
             <div id = "paperM">
                 <div id = "patternM">
@@ -116,14 +124,14 @@
                         Nie znalazłam Go. 
 
                         <br><br><br><br>
-                        I tak to się zaczęło! Od niespodziewanego spotkania, które przerodziło się w zupełnie niespodziewaną MIŁOŚĆ.
+                       
                         </i>
                         </p>
                         <br>
                     </div>
                 </div>
             </div>
-             <p class = "wedButton"><a href="#miejsce" class = "button_details"> Szczegóły </a></p>
+             <p class = "wedButton"> I tak to się zaczęło! Od niespodziewanego spotkania, które przerodziło się w zupełnie niespodziewaną<br>MIŁOŚĆ.</p>
         </div>
     </div>
 
@@ -132,9 +140,10 @@
     <!-- INFORMACJE -->
     <div class = "info_Container" id = "miejsce">
         <div class = "info_Content">
-            <h1 class = info_Head> <b>WESELE!</b></h1>
-            <img class = "modrzewiowy_dwor"src="modrzewiowy_dwor.jpg">
-            <div class = "kiedy_gdzie">
+            <h1 class = info_Head> <b>ŚLUB I WESELE</b></h1>
+           <!-- <a href="http://www.modrzewiowy-dwor.pl/" target="_blank"><img class = "modrzewiowy_dwor"src="modrzewiowy_dwor.jpg"></a>-->
+            
+           <!-- <div class = "kiedy_gdzie">
                 <div class = "kiedy">
                     <h2>Kiedy</h2>
                     <p>Ceremonia ślubu: 12:00??</p>
@@ -147,7 +156,10 @@
                     <p>Chorzów, Parafia św. Franciszka z Asyżu</p>
                     <br>
                     <p>Modrzewiowy dwór, Gliwice</p>
+                    
                 </div>
+                -->
+                <iframe src="https://www.google.com/maps/d/embed?mid=1dyCC_o86oTVc9PkmJbuqL9AIH8cP34Nt" class = "map"></iframe>
             </div>
         </div>
     </div>
@@ -187,8 +199,19 @@
 
     <!--Footer-->
     <footer class = "Footer_Conterner">
-        <p>Powered by Damian Pilny</p>
+       
+        <div class = "footer_bottom">
+            <p class  = "pull-left">2020 &copy All rights reserved.<br> Powered by Damian Pilny</p> 
+            <div class = "footer_container">
 
+                <ul class ="footer-menu">
+                    <li><a href="#home" style = "color: #eee">Home</a></li>
+                    <li><a href="#my" style = "color: #eee">Martyna & Damian </a></li>
+                    <li><a href="#miejsce" style = "color: #eee">Ślub i wesele</a></li>
+                    <li><a href="#rsvp" style = "color: #eee">RSVP</a></li>
+              </ul>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

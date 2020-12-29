@@ -227,13 +227,6 @@ p
     width: auto;
     color: #757575 !important;
 }
-/* FOTO!!
-.Mart_i_ja
-{
-    border-radius: 4px;
-    filter: grayscale(5%);
-}*/
-
 .wrapper 
 {
     width: 30%;
@@ -387,30 +380,6 @@ p
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
     transition: all 0.35s;
 }
-  
-
-/*
-.Damian_diarry
-{
-    border-radius: 4px;
-    filter: grayscale(25%);
-    height: 500px;
-    float: left;
-    width: 40%; 
-   /*margin: 32px 0
-   padding-top: 20px;
-}
-.Martyna_diarry
-{
-    clear: both;
-    border-radius: 4px;
-    filter: grayscale(25%);
-    height: 500px;
-    float: left;
-    width: 40%; 
-   /*margin: 32px 0
-   padding-top: 20px;
-}*/
 #paper
 {
     width: 60%;
@@ -441,14 +410,15 @@ p
     height: 100%;
     background-image: repeating-linear-gradient(white 0px, #F0E68C 28px, teal 27px);
 }
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 #diarry_content
 {
     padding-top: 2px;
     padding-left: 56px;
     padding-right: 16px;
     line-height: 30px;
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: cursive;
     font-size: 18px;
     text-align: justify;
     letter-spacing: 1px;
@@ -489,16 +459,19 @@ p
     padding-right: 56px;
     padding-left: 16px;
     line-height: 25px;
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: cursive;
     font-size: 18px;
     text-align: justify;
     letter-spacing: 1px;
     word-spacing: 2px;
 }
-
 .wedButton
 {
+   
     display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
     width: auto;
     width: 100%;
     text-align: center !important;
@@ -598,6 +571,19 @@ p
     width: 44.9%;
     padding: 0 4px;
     text-align: center;
+}
+.map
+{
+    width: 100%;
+    height: 640px;
+    margin: 64px 0;
+    border-radius: 18px;
+    filter: grayscale(50%);  
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.5); 
+}
+.map:hover
+{
+    filter: none;
 }
 .RSVP_Container
 
