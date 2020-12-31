@@ -474,6 +474,8 @@ p
     text-align: center;
     font-family: 'Open Sans Condensed';
     padding-top: 2px;
+    font-size: 18px;
+    text-align: justify;
 }
 .unselectable {
     -webkit-user-select: none;
@@ -556,7 +558,7 @@ p
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  color: #000;
+  color: #fff;
 }
 .button_details
 {
