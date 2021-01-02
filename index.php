@@ -1,3 +1,12 @@
+<?php
+session_start();
+session_destroy();
+$connect = mysqli_connect("localhost", "root", "", "Wesele");
+mysqli_query($connect, "SET CHARSET utf8");
+mysqli_query($connect, "SET NAMES 'utf8' COLLATE 'utf8_polish_ci'");
+//$query = "SELECT * FROM rodzaje";
+$result = mysqli_query($connect, $query);
+?>
 <!DOCTYPE html>
 <html lang = "pl">
     <head>
@@ -19,6 +28,7 @@
 
         <script src="https://public-assets.envato-static.com/assets/market/pages/full_screen_preview/index-1cc9e02a5e4e48ac2ba5b45a45c05b32584f9580c2fa432bcd2e40dd0b2a2ec2.js"></script>
         <script src = "scroll.js"></script>
+        <script src = "heart.js"></script>
     </head>
 
 <body>
@@ -131,7 +141,15 @@
                     </div>
                 </div>
             </div>
-             <p class = "wedButton"> I tak to się zaczęło! Od niespodziewanego spotkania, które przerodziło się w zupełnie niespodziewaną<br>MIŁOŚĆ.</p>
+            <p class = "text">I tak to się zaczęło! Od niespodziewanego spotkania, które przerodziło się w zupełnie niespodziewaną...</p>
+            
+            <div id="heartWrapper">
+                <div class="heart" onclick="toggleFill(this, 'filled')">
+                  <div class="heart-text unselectable">
+                Miłość
+                  </div>
+                </div>
+              </div>
         </div>
     </div>
 
@@ -177,12 +195,12 @@
     <div id="id01" class = "RSVP_model">
         <div class = "RSVP_model_container">
             <div class = "RSVP_Container">
-                <h1 class = "RSVP_text">Czy będiesz?</h1>
-                <p> Mamy nadzięję, że będziesz</p>
+                <h1 class = "RSVP_text">Internetowa deklaracja przybycia</h1>
+                <p> Mamy nadzięję, że będziesz!</p>
                 <form>
-                    <input class = "inp_Class" type="text" placeholder="Name(s)" name = "name">
+                    <input class = "inp_Class" type="text" placeholder="Imię i nazwisko" name = "name">
                 </form>
-                <p>Dziękujemy, Martyna &amp; Damian</p>
+               
             
                 <div class = "button_bottom">
                     <div class = "button_half">
@@ -192,6 +210,7 @@
                         <button onclick="document.getElementById('id01').style.display = 'none'" type="button" class = "buton_red">Nie idę</button>
                     </div>
                 </div>
+                <p>Dziękujemy, Martyna &amp; Damian</p>
             </div>
         </div>
     </div>
