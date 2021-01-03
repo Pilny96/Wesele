@@ -1,0 +1,118 @@
+body,h1,h2
+{
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    height: 100%;
+    margin: 0;
+}
+body,html
+{
+height: 100%;
+}
+a:link
+{
+    color: #fff;
+}
+a:visited
+{
+    color: #fff;
+}
+a:hover
+{
+    color:#ccc;
+    text-decoration: underline;
+}
+
+p
+{
+    line-height: 2;
+}
+.bgimg
+{
+    background-image: url("temp.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.header
+{
+    position: relative;
+    letter-spacing: 4px;
+    filter:grayscale(35%);
+}
+.Intro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    color: #ffffff !important;
+    text-align: center !important;
+    display: inline-block;
+    width: auto;
+}
+.h1_serwIntro
+{
+    position: relative;
+    font-size: 64px !important;
+    font-family: 'Dancing Script', cursive;
+    color: #fff !important;
+}
+.h1_Intro
+{
+    position: relative;
+    font-size: 64px !important;
+    font-family: 'Dancing Script', cursive;
+ 
+}
+.h2_Intro
+{
+    padding-top: 8px;
+ 
+}
+.h2_date
+{
+    padding: 8px;   
+    
+}
+.icon
+{ 
+    padding-top: 200px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: icon ;
+    animation-timing-function: ease;
+}
+.icon-down-open    
+{
+    color: #fff;    
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 4em 0 0 0;
+    text-align: center;
+    font-size: 2em;
+    border: solid 2px #FFFFFF;
+    width: 50px;
+    height: 50px;
+    padding: .25em 0 0 0;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+    -moz-border-radius: 50%;
+   
+}
+@keyframes icon  {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    57%  { transform: scale(1,1)    translateY(-7px); }
+    64%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}
