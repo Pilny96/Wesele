@@ -177,7 +177,7 @@
     <!--RSVP section-->
     <div class = "RSVP_Container" id = "rsvp">
         <h1>Mamy nadzięję, że będziesz</h1>
-        <p class = "RSVP_potwierdzenie"> Prosimy o potwierdzenie do 14 marca, 2021</p>
+        <p class = "RSVP_potwierdzenie"> Prosimy o potwierdzenie do 14 marca 2021r.</p>
         <p class = "button_Param">
         <button onclick="document.getElementById('id01').style.display='block'" class = "butt_Property" >RSVP</button>
         </p>
@@ -216,7 +216,7 @@
     <footer class = "Footer_Conterner">
        
         <div class = "footer_bottom">
-            <p class  = "pull-left">2021 &copy All rights reserved.<br> Powered by Damian Pilny</p> 
+            <p class  = "pull-left">2021 &copy All rights reserved.<br> Powered by Martyna Danisz & Damian Pilny</p> 
             <div class = "footer_container">
 
                 <ul class ="footer-menu">
