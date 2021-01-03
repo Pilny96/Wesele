@@ -101,7 +101,7 @@
             <div class = "wrapperM">
                 <div class = "itemM">
                     <div class = "polaroidM">
-                        <a href="https://www.facebook.com/martyna.danisz" target="_blank"><img class = "Martyna_diarry" src="temp_strona_Martyna.jpg" style ="width: 100%;"></a>
+                        <a href="https://www.facebook.com/martyna.danisz" target="_blank"><img class = "Martyna_diarry" src="Martynka.jpg" style ="width: 100%;"></a>
                         <div class = "captionM"> Martyna Danisz</div>
                     </div>
                 </div>

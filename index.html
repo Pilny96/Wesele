@@ -44,7 +44,7 @@
 
     <div class = "Navbar" id = "My_Navbar">
 
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closeRSVPButton" onclick="closeNav()">&times;</a>
         <a href="#home" class = "nav_menu"> Home</a>
         <a href="#my"  class = "nav_menu"> Martyna & Damian</a>
         <a href="#miejsce" class = "nav_menu"> Ślub i wesele</a>
@@ -101,7 +101,7 @@
             <div class = "wrapperM">
                 <div class = "itemM">
                     <div class = "polaroidM">
-                        <a href="https://www.facebook.com/martyna.danisz" target="_blank"><img class = "Martyna_diarry" src="temp_strona_Martyna.jpg" style ="width: 100%;"></a>
+                        <a href="https://www.facebook.com/martyna.danisz" target="_blank"><img class = "Martyna_diarry" src="Martynka.jpg" style ="width: 100%;"></a>
                         <div class = "captionM"> Martyna Danisz</div>
                     </div>
                 </div>
@@ -179,29 +179,34 @@
         <h1>Mamy nadzięję, że będziesz</h1>
         <p class = "RSVP_potwierdzenie"> Prosimy o potwierdzenie do Stycznia, 2021</p>
         <p class = "button_Param">
-        <button onclick="document.getElementById('id01').style.display='block'" class = "butt_Property">RSVP</button>
+        <button onclick="document.getElementById('id01').style.display='block'" class = "butt_Property" >RSVP</button>
         </p>
     </div>
 
     <div id="id01" class = "RSVP_model">
         <div class = "RSVP_model_container">
-            <div class = "RSVP_Container">
+            <div class = "RSVP_Container" name = "temp">
+                <div>
+                <a href="javascript:void(0)" class="closebtn" onclick="document.getElementById('id01').style.display='none'">&times;</a>
+                </div>
                 <h1 class = "RSVP_text">Internetowa deklaracja przybycia</h1>
                 <p> Mamy nadzięję, że będziesz!</p>
-                <form>
-                    <input class = "inp_Class" type="text" placeholder="Imię i nazwisko" name = "name">
-                </form>
+                <form method = "post" action = "serwer.php">
+                    <input class = "inp_Class" type="text" placeholder="Imię i nazwisko" name = "formName" >
                
-            
-                <div class = "button_bottom">
-                    <div class = "button_half">
-                        <button onclick="document.getElementById('id01').style.display = 'none'" type="button" class = "buton_green">Idę</button>
-                    </div>
-                    <div class = "button_half">
-                        <button onclick="document.getElementById('id01').style.display = 'none'" type="button" class = "buton_red">Nie idę</button>
-                    </div>
-                </div>
-                <p>Dziękujemy, Martyna &amp; Damian</p>
+                    
+                        <div class = "greenButton">
+                            <button type="submit" class = "buton_green" name = "clickYES" >Idę</button>
+                        
+                        </div>
+                    
+                        <div class = "redButton">
+                        <button type="submit" class = "buton_red" name = "clickNO">Nie idę</button>
+                        </div>
+                    
+                   
+                </form>
+                <p><br><br>Dziękujemy, <br>Martyna &amp; Damian</p>
             </div>
         </div>
     </div>
