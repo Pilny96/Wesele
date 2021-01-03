@@ -1,4 +1,3 @@
 RewriteEngine On
-RewriteCond % {HTTPS} off [OR]
-RewriteCond % {HTTP_HOST} ^www\. [NC]
-RewriteRule ^ https://pilnewesele.pl%{REQUEST_URL} [L,NE,R=301]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

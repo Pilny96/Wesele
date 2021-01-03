@@ -34,8 +34,11 @@
         </div>   
     </header>
 <?php 
-
-$connect = mysqli_connect("localhost", "root", "", "wesele");
+$serwerName = "localhost";
+$dbUser = "33923264_wesele";
+$dbPassword = "weselehej96";
+$dbSubModule = "33923264_wesele";
+$connect = mysqli_connect($serwerName, $dbUser, $dbPassword, $dbSubModule);
    
         $name = $_POST['formName'];
     
