@@ -216,7 +216,7 @@
     <footer class = "Footer_Conterner">
        
         <div class = "footer_bottom">
-            <p class  = "pull-left">2020 &copy All rights reserved.<br> Powered by Damian Pilny</p> 
+            <p class  = "pull-left">2021 &copy All rights reserved.<br> Powered by Damian Pilny</p> 
             <div class = "footer_container">
 
                 <ul class ="footer-menu">
