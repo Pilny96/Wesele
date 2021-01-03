@@ -14,7 +14,7 @@
         <title> Martyna & Damian</title>
         
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans|Liu+Jian+Mao+Cao|Raleway&display=swap" rel="stylesheet">
-        <link rel ="stylesheet" href = "serwStyle.css"type="text/css"/> 
+        <link rel ="stylesheet" href = "serwstyle.css"type="text/css"/> 
         <link rel ="stylesheet" href = "css/fontello.css" type = "text/css"/> 
 
         <script src="https://public-assets.envato-static.com/assets/market/pages/full_screen_preview/index-1cc9e02a5e4e48ac2ba5b45a45c05b32584f9580c2fa432bcd2e40dd0b2a2ec2.js"></script>
