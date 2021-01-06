@@ -20,6 +20,7 @@
         <script src="https://public-assets.envato-static.com/assets/market/pages/full_screen_preview/index-1cc9e02a5e4e48ac2ba5b45a45c05b32584f9580c2fa432bcd2e40dd0b2a2ec2.js"></script>
         <script src = "scroll.js"></script>
         <script src = "heart.js"></script>
+        <script src = "countdown.js"></script>
     </head>
 
 <body>
@@ -30,9 +31,17 @@
         <div class = "Intro">
     
             <h1 class = "h1_Intro">Martyna &amp Damian</h1>
-            <h2 class = h2_Intro>Pobieramy się!</h2>
+            <h2 class = h2_Intro>POBIERAMY SIĘ!</h2>
             <br>
             <h2 class = "h2_date"><b>24.04.2021r.</b></h2>
+            <div id = "countdown">
+                <ul>
+                    <li><span id = "days"></span> DNI</li>
+                    <li><span id = "hours"></span>GODZIN</li>
+                  <li><span id = "minutes"></span>MINUT</li>
+                    <li><span id = "seconds"></span>SEKUND</li>
+                </ul>
+            </div>
             <div class = "icon">
                 <i class = "Inside_bounce ">
                 <a href="#my"><h2> <i class="icon-down-open"></i> </h2> </a>

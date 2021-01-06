@@ -70,17 +70,55 @@ p
 }
 .h2_Intro
 {
+    font-family: 'Dancing Script', cursive;
     padding-top: 8px;
  
 }
 .h2_date
 {
+    font-family: 'Dancing Script', cursive;
     padding: 8px;   
     
 }
+li
+{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+li span
+{
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    font-size: 25px;
+}
+@media all and (max-width:100%)
+{
+     h1
+     {
+        font-family: 'Dancing Script', cursive;
+         font-size: 18px;
+     }
+     li
+     {
+        font-family: 'Dancing Script', cursive;
+         font-size: 18px;
+         padding: .75rem;
+     }
+     li span
+     {
+        font-family: 'Dancing Script', cursive;
+         font-size: 3.375rem;
+     }
+
+}
+
 .icon
 { 
-    padding-top: 200px;
+    padding-top: 30%;
     text-align: center;
     display: inline-block;
     position: relative;
