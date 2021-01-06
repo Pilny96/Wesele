@@ -211,7 +211,7 @@ p
     padding: 0.01em 16px;
     padding-top: 64px !important;
     padding-bottom: 64px !important;
-    background-image: url("ourBackground.jpg") !important;
+    background-image: url("ourbackground.jpg") !important;
     color: #000 !important;
     filter: grayscale(50%);
 }
@@ -608,7 +608,7 @@ p
     padding: 0.01em 16px;
     padding-top: 64px !important;
     padding-bottom: 64px !important;
-    background-image: url("ourBackground.jpg") !important;
+    background-image: url("ourbackground.jpg") !important;
     color: #000 !important;
     filter: grayscale(50%);
     text-align: center;
