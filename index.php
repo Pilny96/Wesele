@@ -70,7 +70,7 @@
             <div class = "wrapper">
                 <div class = "item">
                     <div class = "polaroid">
-                        <a href="https://www.facebook.com/damian.pilny/" target="_blank"><img  src="temp_strona_damian.jpg" style ="width: 100%;"></a>
+                        <a href="https://www.facebook.com/damian.pilny/" target="_blank"><img  src="damian_kwiaty.jpg" style ="width: 100%;"></a>
                         <div class = "caption"> Damian Pilny</div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
             <div class = "wrapperM">
                 <div class = "itemM">
                     <div class = "polaroidM">
-                        <a href="https://www.facebook.com/martyna.danisz" target="_blank"><img class = "Martyna_diarry" src="martynka.jpg" style ="width: 100%;"></a>
+                        <a href="https://www.facebook.com/martyna.danisz" target="_blank"><img class = "Martyna_diarry" src="martyna_lublin.jpg" style ="width: 100%;"></a>
                         <div class = "captionM"> Martyna Danisz</div>
                     </div>
                 </div>
