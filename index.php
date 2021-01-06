@@ -31,7 +31,8 @@
     
             <h1 class = "h1_Intro">Martyna &amp Damian</h1>
             <h2 class = h2_Intro>Pobieramy się!</h2>
-            <h2 class = "h2_date"><b>24.04.2021</b></h2>
+            <br>
+            <h2 class = "h2_date"><b>24.04.2021r.</b></h2>
             <div class = "icon">
                 <i class = "Inside_bounce ">
                 <a href="#my"><h2> <i class="icon-down-open"></i> </h2> </a>
@@ -82,7 +83,7 @@
                 <div id = "pattern">
                     
                     <div id = "diarry_content">
-                        <p><i> 29.04.2017 r. 
+                        <p><i> 29.04.2017r. 
                         <br>Z pamiętnika Damiana: <br><br>
                         Urodziny. Impreza. Potańcówa. Super, posiedzimy w fajnym gronie, dawno się nie widzieliśmy. Wchodzimy na salę, jeszcze było jasno, impreza miała się 
                         ku rozpoczęciu. Patrzę "OOOOO..." no ładna dziewczyna jest. Nie znam. Będzie dużo czasu aby się odpowiednio przygotować do "spotkania".
@@ -116,11 +117,11 @@
                         Że niby "z przyczajki". Udało nam się parę razy potańczyć w kółku z resztą imprezowego towarzystwa. W końcu nadszedł TEN MOMENT - wolny taniec.
                         To chyba jasne, że byłam PRZEKONANA, że zaraz mnie zaprosi do tańca. To był Ed Sheeran <a href="https://www.youtube.com/watch?v=lp-EO5I60KA" target="_blank">Thinking out loud.</a>  Kojarzycie teledysk do tego?
                         Już wyobrażałam sobie jak FANTASTYCZNIE odwzorowujemy z nowo poznanym kolegą tę BANALNIE prostą choreografię. Obroty, szpagaty, podnoszenia... Czujecie klimaty? 
-                        A tu ku mojemu ogromnemu zaskoczeniu nic. NIC! NO CO TO MA BYĆ? GDZIE MÓJ ED?! Leci zwrotka - wszysycy sie już sparowali, zostały na parkiecie UWAGA 2 osoby 
-                        (tak - ja i On). Kończy się refren - myślę "AHA". Dobra koniec nie będe stała tu jak krowa. Już robię pierwszy krok ku bigosowi i znów zaskoczenie. OBUDZIŁ SIĘ!
+                        A tu ku mojemu ogromnemu zaskoczeniu nic. NIC! NO CO TO MA BYĆ? GDZIE MÓJ ED?! Leci zwrotka - wszysycy się już sparowali, zostały na parkiecie UWAGA 2 osoby 
+                        (tak - ja i On). Kończy się refren - myślę "AHA". Dobra, koniec, nie będę stała tu jak krowa. Już robię pierwszy krok ku bigosowi i znów zaskoczenie. OBUDZIŁ SIĘ!
                         JEDNAK TAŃCZYMY!!!! No to jazda! Odpalamy kocie ru... NIE STOP! Dlaczego on jest taki zestresowany? Co to za kłoda? Czemu On tańczyć nie umie?
                         Dobra, może urzeknie mnie swoją charyzmą...
-                        Wróć. Nie urzekł. Nawet się nie przedstawił. Wróce do domu, to chociaż obczaję co to za osioł na Facebooku. 
+                        Wróć. Nie urzekł. Nawet się nie przedstawił. Wrócę do domu, to chociaż obczaję co to za koleś na Facebooku. 
                         Wróciłam.
                         Nie znalazłam Go. 
 
