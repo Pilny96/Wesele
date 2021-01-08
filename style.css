@@ -96,44 +96,48 @@ li
     position: relative;
     font-family: 'Dancing Script', cursive;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     list-style-type: none;
-    padding: 1em;
-    text-transform: uppercase;
+    padding: 2%;
+    /*text-transform: uppercase;*/
 }
 li span
 {
+    
     position: relative;
     font-family: 'Dancing Script', cursive;
     display: block;
-    font-size: 25px;
+    font-size: 15px;
 }
 @media all and (max-width:100%)
 {
      h1
      {
+        
         position: relative;
         font-family: 'Dancing Script', cursive;
-         font-size: 18px;
+        font-size: 12%;
      }
      li
-     {position: relative;
-        font-family: 'Dancing Script', cursive;
-         font-size: 18px;
-         padding: .75rem;
-     }
-     li span
      {
         position: relative;
         font-family: 'Dancing Script', cursive;
-         font-size: 3.375rem;
+        font-size: 12%;
+        padding: .5rem;
+     }
+     li span
+     {
+        
+        position: relative;
+        font-family: 'Dancing Script', cursive;
+        font-size: 12%;
      }
 
 }
 
 .icon
 { 
-    padding-top: 30%;
+    padding-top: 20%;
     text-align: center;
     display: inline-block;
     position: relative;
