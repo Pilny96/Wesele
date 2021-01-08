@@ -80,8 +80,20 @@ p
     padding: 8px;   
     
 }
+.countdown
+{
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+ul
+{
+    width: 100%;
+}
 li
 {
+    position: relative;
     font-family: 'Dancing Script', cursive;
     display: inline-block;
     font-size: 20px;
@@ -91,6 +103,7 @@ li
 }
 li span
 {
+    position: relative;
     font-family: 'Dancing Script', cursive;
     display: block;
     font-size: 25px;
@@ -99,17 +112,19 @@ li span
 {
      h1
      {
+        position: relative;
         font-family: 'Dancing Script', cursive;
          font-size: 18px;
      }
      li
-     {
+     {position: relative;
         font-family: 'Dancing Script', cursive;
          font-size: 18px;
          padding: .75rem;
      }
      li span
      {
+        position: relative;
         font-family: 'Dancing Script', cursive;
          font-size: 3.375rem;
      }
