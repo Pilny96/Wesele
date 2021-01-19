@@ -87,11 +87,11 @@ p
     text-align: center;
     width: 100%;
 }
-ul
+.countdown ul
 {
     width: 100%;
 }
-li
+.header li
 {
     position: relative;
     font-family: 'Dancing Script', cursive;
@@ -101,7 +101,7 @@ li
     padding: 2px;
     text-transform: uppercase;
 }
-li span
+.header li span
 {
     position: relative;
     font-family: 'Dancing Script', cursive;
@@ -110,20 +110,20 @@ li span
 }
 @media all and (max-width:100%)
 {
-     h1
+    .header h1
      {
         position: relative;
         font-family: 'Dancing Script', cursive;
         font-size: 18px;
      }
-     li
+     .header li
      {
         position: relative;
         font-family: 'Dancing Script', cursive;
         font-size: 18px;
         padding: .75rem;
      }
-     li span
+     .header li span
      {
         position: relative;
         font-family: 'Dancing Script', cursive;
@@ -950,6 +950,7 @@ li span
 }
 .footer-menu
 {
+    font-size: 20px !important;
     width: auto;
     clear: both;
     padding: 0;
