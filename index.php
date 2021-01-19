@@ -57,7 +57,7 @@
         <a href="javascript:void(0)" class="closeRSVPButton" onclick="closeNav()">&times;</a>
         <a href="#home" class = "nav_menu"> Home</a>
         <a href="#my"  class = "nav_menu"> Martyna & Damian</a>
-        <a href="#miejsce" class = "nav_menu"> Ślub i wesele</a>
+        <a href="#miejsce" class = "nav_menu"> Gdzie się spotykamy</a>
         <a href="#rsvp" class = "nav_menu, RSVP_menu"> RSVP</a>
         
         <div id = "main" onclick="openNav()">
@@ -159,7 +159,7 @@
     <!-- INFORMACJE -->
     <div class = "info_Container" id = "miejsce">
         <div class = "info_Content">
-            <h1 class = info_Head> <b>ŚLUB I WESELE</b></h1>
+            <h1 class = info_Head> <b>Gdzie się spotykamy</b></h1>
            <!-- <a href="http://www.modrzewiowy-dwor.pl/" target="_blank"><img class = "modrzewiowy_dwor"src="modrzewiowy_dwor.jpg"></a>-->
             
            <!-- <div class = "kiedy_gdzie">
@@ -232,7 +232,7 @@
                 <ul class ="footer-menu">
                     <li><a href="#home" style = "color: #eee">Home</a></li>
                     <li><a href="#my" style = "color: #eee">Martyna & Damian </a></li>
-                    <li><a href="#miejsce" style = "color: #eee">Ślub i wesele</a></li>
+                    <li><a href="#miejsce" style = "color: #eee">Gdzie się spotykamy</a></li>
                     <li><a href="#rsvp" style = "color: #eee">RSVP</a></li>
               </ul>
             </div>
