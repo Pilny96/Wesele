@@ -98,7 +98,7 @@ li
     display: inline-block;
     font-size: 20px;
     list-style-type: none;
-    padding: 2%;
+    padding: 2px;
     text-transform: uppercase;
 }
 li span
@@ -133,7 +133,7 @@ li span
 
 .icon
 { 
-    padding-top: 30%;
+    padding-top: 20%;
     text-align: center;
     display: inline-block;
     position: relative;
