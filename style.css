@@ -114,19 +114,20 @@ li span
      {
         position: relative;
         font-family: 'Dancing Script', cursive;
-         font-size: 18px;
+        font-size: 18px;
      }
      li
-     {position: relative;
+     {
+        position: relative;
         font-family: 'Dancing Script', cursive;
-         font-size: 18px;
-         padding: .75rem;
+        font-size: 18px;
+        padding: .75rem;
      }
      li span
      {
         position: relative;
         font-family: 'Dancing Script', cursive;
-         font-size: 3.375rem;
+        font-size: 3.375rem;
      }
 
 }
@@ -962,12 +963,19 @@ li span
     padding-left: 10px;
     color: #ccc!important;
 }
+.footer-menu a
+{
+    text-decoration: none;
+}
+.footer-menu a:hover
+{
+    text-decoration: underline;
+}
 .footer-menu li::before
 {
     display: inline-block;
     content: "•";
-    padding-right: 12px;
-    
+    padding-right: 12px;  
 }
 .footer-menu li:first-child:before
 {
@@ -976,10 +984,11 @@ li span
 .footer-menu li
 {
     padding: 0 5px;
+    font-family: 'Open Sans Condensed'!important;
 }
 .footer-menu li:hover
 {
-    color: #bbb
+    color: #bbb;
 }
 .pull-left
 {
