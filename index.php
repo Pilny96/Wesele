@@ -20,7 +20,6 @@
         <script src="https://public-assets.envato-static.com/assets/market/pages/full_screen_preview/index-1cc9e02a5e4e48ac2ba5b45a45c05b32584f9580c2fa432bcd2e40dd0b2a2ec2.js"></script>
         <script src = "scroll.js"></script>
         <script src = "heart.js"></script>
-        <script src = "countdown.js"></script>
     </head>
 
 <body>
@@ -35,12 +34,8 @@
             <br>
             <h2 class = "h2_date"><b>24.04.2021r.</b></h2>
             <div id = "countdown">
-                <ul>
-                    <li><span id = "days"></span> DNI</li>
-                    <li><span id = "hours"></span>GODZIN</li>
-                  <li><span id = "minutes"></span>MINUT</li>
-                    <li><span id = "seconds"></span>SEKUND</li>
-                </ul>
+            <h2 class = h2_Intro>DZIĘKUJEMY, ŻE BYLIŚCIE Z NAMI &#9829</h2>
+            
             </div>
             <div class = "icon">
                 <i class = "Inside_bounce ">
@@ -58,7 +53,7 @@
         <a href="#home" class = "nav_menu"> Home</a>
         <a href="#my"  class = "nav_menu"> Martyna & Damian</a>
         <a href="#miejsce" class = "nav_menu"> Gdzie się spotykamy</a>
-        <a href="#rsvp" class = "nav_menu, RSVP_menu"> RSVP</a>
+        <a href="#rsvp" class = "nav_menu, RSVP_menu"> Pierwszy taniec</a>
         
         <div id = "main" onclick="openNav()">
             <span style="font-size: 30px; cursor:pointer;">&#9776;</span>
@@ -186,11 +181,10 @@
 
     <!--RSVP section-->
     <div class = "RSVP_Container" id = "rsvp">
-        <h1>Mamy nadzięję, że będziesz</h1>
-        <p class = "RSVP_potwierdzenie"> Prosimy o potwierdzenie do 14 marca 2021r.</p>
-        <p class = "button_Param">
-        <button onclick="document.getElementById('id01').style.display='block'" class = "butt_Property" >RSVP</button>
-        </p>
+        <h1>Zapraszamy na nasz pierwszy taniec!</h1>
+        <br><br><br>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/541768919" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    </video>
     </div>
 
     <div id="id01" class = "RSVP_model">
