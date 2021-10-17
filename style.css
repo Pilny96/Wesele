@@ -751,85 +751,6 @@ p
 {
     font-size: 18px !important;
 }
-.button_Param
-{
-    font-size: 24px !important;
-}
-.butt_Property
-{
-    border: none;
-    display: inline-block;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: normal;
-    -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -khtml-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-    width: 28%;
-    color: #fff !important;
-    background-color: #f44336 !important;
-    border-radius: 8px;
-    padding: 1% 5% !important;
-    font-size: 80% !important;
-    text-align: center;
-}
-.butt_Property:disabled
-{
-    cursor: not-allowed;
-    opacity: 0.3;
-}
-.butt_Property:hover
-{
-    color: #000 !important;
-    background-color: #ccc !important;
-}
-
-.RSVP_model
-{
-    z-index: 3;
-    display: none;
-    padding-top: 150px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    padding-top: 50px;
-}
-
-.RSVP_model_container
-{
-    margin: auto;
-    background-color: #fff;
-    position: relative;
-    padding: 150;
-    outline: 0;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    animation: animatezoom 0.6s;
-    padding: 32px;
-    max-width: 600px;
-}
-@keyframes animatezoom{from{transform:scale(10)} to{transform:scale(1)}}
-
-.closeRSVPButton
-{
-    top: 0 px;
-    padding-right: 0;
-    position: relative;
-    font-size: 36px;
-    margin-left: 60%;
-}
 
 .RSVP_Container
 {
@@ -846,10 +767,7 @@ p
     display: table;
     clear: both;
 }
-.RSVP_text
-{
-    letter-spacing: 4px;
-}
+
 .inp_Class
 {
     padding: 8px;
@@ -858,85 +776,7 @@ p
     border: 1px solid #ccc !important;
     width: 100%;
 }
-.button_bottom
-{
-    clear: both;
-    height: 100%;
-    width: 100%;
-}
-.button_half
-{
-    float: left;
-}
-.greenButton
-{
-    float: left;
-    padding-top: 4px;
-    width: 50%;
-}
-.redButton
-{
-    padding-top: 4px;
-    float: left;
-    width: 50%;
-}
-.buton_green
-{
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: normal;
-    -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -khtml-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-    width: 15%;
-    color: #fff !important;
-    background-color: #70c240 !important;
-    border-radius: 8px;
-    padding: 8px 60px !important;
-    font-size: 18px !important;
-    text-align: center;
 
-    
-}
-.buton_red
-{
-    clear: both;
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: normal;
-    -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -khtml-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-    width: 15%;
-    color: #fff !important;
-    background-color: #f44336 !important;
-    border-radius: 8px;
-    padding: 8px 60px !important;
-    padding-top: 5px;
-    font-size: 18px !important;
-    text-align: center;
-
-}
 .Footer_Conterner
 {
     display: block;

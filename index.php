@@ -30,7 +30,7 @@
         <div class = "Intro">
     
             <h1 class = "h1_Intro">Martyna &amp Damian</h1>
-            <h2 class = h2_Intro>POBIERAMY SIĘ!</h2>
+            <h2 class = h2_Intro>POBRALIŚMY SIĘ!</h2>
             <br>
             <h2 class = "h2_date"><b>24.04.2021r.</b></h2>
             <div id = "countdown">
@@ -51,6 +51,7 @@
 
         <a href="javascript:void(0)" class="closeRSVPButton" onclick="closeNav()">&times;</a>
         <a href="#home" class = "nav_menu"> Home</a>
+        <a href="#Galeria" class = "nav_menu"> Galeria</a>
         <a href="#my"  class = "nav_menu"> Martyna & Damian</a>
         <a href="#miejsce" class = "nav_menu"> Gdzie się spotykamy</a>
         <a href="#rsvp" class = "nav_menu, RSVP_menu"> Pierwszy taniec</a>
@@ -59,17 +60,28 @@
             <span style="font-size: 30px; cursor:pointer;">&#9776;</span>
         </div>
 
-        <!--</div> -->
     </div>
 
     <script src = "jquery.js"></script>
     <script src = "menu.js"></script>
 
+    <!-- GALERIA -->
+    <div class = "info_Container" id = "Galeria">
+        <div class = "info_Content">
+            <h1 class = info_Head> <b>GALERIA</b></h1>
+            <br><br>
+            <div class = "polaroid">
+                <a href="https://mkstudio.smugmug.com/Weddings/Martyna-i-Damian/n-mnqHmz/i-ZR4jG5L" target="_blank"><img class = "Martyna_diarry" src="./img/pic-38.jpg" style ="width: 100%;"></a>
+            </div>
+            <br><br>
+            <h1 class = info_Head> Zapraszamy do naszej <a href="https://mkstudio.smugmug.com/Weddings/Martyna-i-Damian/n-mnqHmz/i-ZR4jG5L" target="_blank">GALERII</a>  zdjęć </h1>
+            </div>
+        </div>
+    </div>
+
     <!--About Martyna & Damian-->
 
     <div class = "AboutUs_Container" id = "my">
-        
-                
         <div class = "AboutUs_Content">
             <h1 class = "AboutUS_nag"><b>Martyna &amp Damian</b></h1>
             <div class = "wrapper">
@@ -81,7 +93,6 @@
                 </div>
             </div>
                  
-            <!--<img class = "Mart_i_ja" src="Mart_i_ja.jpg" style = "width: 100%; margin: 32px 0">-->
             <div id = "paper">
            
                 <div id = "pattern">
@@ -155,24 +166,6 @@
     <div class = "info_Container" id = "miejsce">
         <div class = "info_Content">
             <h1 class = info_Head> <b>Gdzie się spotykamy</b></h1>
-           <!-- <a href="http://www.modrzewiowy-dwor.pl/" target="_blank"><img class = "modrzewiowy_dwor"src="modrzewiowy_dwor.jpg"></a>-->
-            
-           <!-- <div class = "kiedy_gdzie">
-                <div class = "kiedy">
-                    <h2>Kiedy</h2>
-                    <p>Ceremonia ślubu: 12:00??</p>
-                    <br>
-                    <p>Przyjęcie</p>
-                </div>
-        
-                <div class = "gdzie">
-                    <h2>Gdzie</h2>
-                    <p>Chorzów, Parafia św. Franciszka z Asyżu</p>
-                    <br>
-                    <p>Modrzewiowy dwór, Gliwice</p>
-                    
-                </div>
-                -->
                 <iframe src="https://www.google.com/maps/d/embed?mid=1dyCC_o86oTVc9PkmJbuqL9AIH8cP34Nt" class = "map"></iframe>
             </div>
         </div>
@@ -186,35 +179,6 @@
         <iframe title="vimeo-player" src="https://player.vimeo.com/video/541768919" width="640" height="360" frameborder="0" allowfullscreen></iframe>
     </video>
     </div>
-
-    <div id="id01" class = "RSVP_model">
-        <div class = "RSVP_model_container">
-            <div class = "RSVP_Container" name = "temp">
-                <div>
-                <a href="javascript:void(0)" class="closebtn" onclick="document.getElementById('id01').style.display='none'">&times;</a>
-                </div>
-                <h1 class = "RSVP_text">Internetowa deklaracja przybycia</h1>
-                <p> Mamy nadzięję, że będziesz!</p>
-                <form method = "post" action = "serwer.php">
-                    <input class = "inp_Class" type="text" placeholder="Imię i nazwisko" name = "formName" >
-               
-                    
-                        <div class = "greenButton">
-                            <button type="submit" class = "buton_green" name = "clickYES" >Idę</button>
-                        
-                        </div>
-                    
-                        <div class = "redButton">
-                        <button type="submit" class = "buton_red" name = "clickNO">Nie idę</button>
-                        </div>
-                    
-                   
-                </form>
-                <p><br><br>Dziękujemy, <br>Martyna &amp; Damian</p>
-            </div>
-        </div>
-    </div>
-
 
     <!--Footer-->
     <footer class = "Footer_Conterner">
