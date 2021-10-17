@@ -189,6 +189,7 @@
 
                 <ul class ="footer-menu">
                     <li><a href="#home" style = "color: #eee">Home</a></li>
+                    <li><a href="#Galeria" style = "color: #eee">Galeria</a></li>
                     <li><a href="#my" style = "color: #eee">Martyna & Damian </a></li>
                     <li><a href="#miejsce" style = "color: #eee">Gdzie się spotykamy</a></li>
                     <li><a href="#rsvp" style = "color: #eee">Pierwszy Taniec</a></li>
