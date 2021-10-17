@@ -70,7 +70,13 @@
         <div class = "info_Content">
             <h1 class = info_Head> <b>GALERIA</b></h1>
             <br><br>
-            <div class = "polaroid">
+            <div class = "gallery_image">
+                <a href="gallery.php" target="_blank"><img class = "Martyna_diarry" src="./img/IMG_6393.jpg" style ="width: 100%;"></a>
+            </div>
+            <br><br>
+            <h1 class = info_Head> Zapraszamy do naszej <a href="gallery.php" target="_blank">GALERII</a>  zdjęć z trzaskania </h1>
+            <br><br>    
+            <div class = "gallery_image">
                 <a href="https://mkstudio.smugmug.com/Weddings/Martyna-i-Damian/n-mnqHmz/i-ZR4jG5L" target="_blank"><img class = "Martyna_diarry" src="./img/pic-38.jpg" style ="width: 100%;"></a>
             </div>
             <br><br>
