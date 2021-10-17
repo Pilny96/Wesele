@@ -39,7 +39,7 @@
             </div>
             <div class = "icon">
                 <i class = "Inside_bounce ">
-                <a href="#my"><h2> <i class="icon-down-open"></i> </h2> </a>
+                <a href="#Galeria"><h2> <i class="icon-down-open"></i> </h2> </a>
                 </i>
             </div>
         </div>   
